@@ -1,0 +1,1141 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-06-16 21:13:44",
+    "containerVersion": {
+        "path": "accounts/999999999/containers/999999999/versions/0",
+        "accountId": "999999999",
+        "containerId": "999999999",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/999999999/containers/999999999",
+            "accountId": "999999999",
+            "containerId": "999999999",
+            "name": "gtm-container",
+            "publicId": "GTM-AAAAAAAA",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1695130343263",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/999999999/containers/999999999/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-AAAAAAAA"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "tagId": "947",
+                "name": "DataLayer Push Initialization Timestamp",
+                "type": "cvt_999999999_906",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_performance"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "varSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_initialization_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Session Timestamp}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1735962122271",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "parentFolderId": "938",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NEEDED",
+                    "consentType": {
+                        "type": "LIST",
+                        "list": [
+                            {
+                                "type": "TEMPLATE",
+                                "value": "functionality_storage"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "tagId": "949",
+                "name": "DataLayer Push Page Load Timestamp",
+                "type": "cvt_999999999_906",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_performance"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "varSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_pageload_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Session Timestamp}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1749059041778",
+                "firingTriggerId": [
+                    "1119"
+                ],
+                "parentFolderId": "938",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NEEDED",
+                    "consentType": {
+                        "type": "LIST",
+                        "list": [
+                            {
+                                "type": "TEMPLATE",
+                                "value": "functionality_storage"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "tagId": "951",
+                "name": "DataLayer Push DOM Ready Timestamp",
+                "type": "cvt_999999999_906",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_performance"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "varSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_domready_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Session Timestamp}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1735962079941",
+                "firingTriggerId": [
+                    "959"
+                ],
+                "parentFolderId": "938",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NEEDED",
+                    "consentType": {
+                        "type": "LIST",
+                        "list": [
+                            {
+                                "type": "TEMPLATE",
+                                "value": "functionality_storage"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "tagId": "953",
+                "name": "DataLayer Push Window Loaded Timestamp",
+                "type": "cvt_999999999_906",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_performance"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "varSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_windowload_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Session Timestamp}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1750092623746",
+                "firingTriggerId": [
+                    "958"
+                ],
+                "parentFolderId": "938",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NEEDED",
+                    "consentType": {
+                        "type": "LIST",
+                        "list": [
+                            {
+                                "type": "TEMPLATE",
+                                "value": "functionality_storage"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "tagId": "955",
+                "name": "Page Performance Send Event",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_initialization_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DataLayer Get Initialization Timestamp}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_pageload_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DataLayer Get Page Load Timestamp}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_domready_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DataLayer Get DOM Ready Timestamp}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_windowload_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{DataLayer Get Window Loaded Timestamp}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_pageload_ms"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page Performance Page Load ms}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_domready_ms"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page Performance DOM Ready ms}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "e_windowload_ms"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Page Performance Window Load ms}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_performance"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Google Analytics Stream RegEx Lookup}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{Google Tag Shared Event Settings}}"
+                    }
+                ],
+                "fingerprint": "1750092724383",
+                "firingTriggerId": [
+                    "1131"
+                ],
+                "teardownTag": [
+                    {
+                        "tagName": "DataLayer Push Clear Timestamps",
+                        "stopTeardownOnFailure": true
+                    }
+                ],
+                "parentFolderId": "938",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "tagId": "956",
+                "name": "DataLayer Push Clear Timestamps",
+                "type": "cvt_999999999_906",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "page_performance"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "varSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_initialization_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Undefined Value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_pageload_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Undefined Value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_domready_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Undefined Value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varName",
+                                        "value": "page_windowload_ts"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "varValue",
+                                        "value": "{{Undefined Value}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1748454325513",
+                "parentFolderId": "938",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NEEDED",
+                    "consentType": {
+                        "type": "LIST",
+                        "list": [
+                            {
+                                "type": "TEMPLATE",
+                                "value": "functionality_storage"
+                            }
+                        ]
+                    }
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "triggerId": "958",
+                "name": "Window Loaded Timestamp Trigger",
+                "type": "WINDOW_LOADED",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get Initialization Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get Page Load Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get DOM Ready Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1749475274213",
+                "parentFolderId": "938"
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "triggerId": "959",
+                "name": "DOM Ready Timestamp Trigger",
+                "type": "DOM_READY",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get Initialization Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1749475297408",
+                "parentFolderId": "938"
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "triggerId": "1119",
+                "name": "Page Load Timestamp Trigger",
+                "type": "PAGEVIEW",
+                "fingerprint": "1749061229259",
+                "parentFolderId": "938"
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "triggerId": "1131",
+                "name": "Page Performance Send Event Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "page_performance"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get Initialization Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get Page Load Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get DOM Ready Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{DataLayer Get Window Loaded Timestamp}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^[1-9][0-9].*"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GREATER",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Performance Page Load ms}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GREATER",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Performance DOM Ready ms}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GREATER",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Performance Window Load ms}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "0"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1750093139477",
+                "parentFolderId": "938"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "856",
+                "name": "Session Timestamp",
+                "type": "cvt_999999999_679",
+                "fingerprint": "1732429630044",
+                "parentFolderId": "855",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "948",
+                "name": "DataLayer Get Initialization Timestamp",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_initialization_ts"
+                    }
+                ],
+                "fingerprint": "1735961984384",
+                "parentFolderId": "938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "950",
+                "name": "DataLayer Get Page Load Timestamp",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_pageload_ts"
+                    }
+                ],
+                "fingerprint": "1735962001023",
+                "parentFolderId": "938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "952",
+                "name": "DataLayer Get DOM Ready Timestamp",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_domready_ts"
+                    }
+                ],
+                "fingerprint": "1735961970757",
+                "parentFolderId": "938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "954",
+                "name": "DataLayer Get Window Loaded Timestamp",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "page_windowload_ts"
+                    }
+                ],
+                "fingerprint": "1735962019652",
+                "parentFolderId": "938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "1022",
+                "name": "Undefined Value",
+                "type": "uv",
+                "fingerprint": "1745254191402",
+                "parentFolderId": "4",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "1125",
+                "name": "Page Performance Window Load ms",
+                "type": "cvt_5TJMM",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "op2",
+                        "value": "{{DataLayer Get Initialization Timestamp}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "resultTransformation",
+                        "value": "none"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "op1",
+                        "value": "{{DataLayer Get Window Loaded Timestamp}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "calcFunctionName",
+                        "value": "subtract"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "functionType",
+                        "value": "calc"
+                    }
+                ],
+                "fingerprint": "1750093833541",
+                "parentFolderId": "938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "1126",
+                "name": "Page Performance DOM Ready ms",
+                "type": "cvt_5TJMM",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "op2",
+                        "value": "{{DataLayer Get Initialization Timestamp}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "resultTransformation",
+                        "value": "none"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "op1",
+                        "value": "{{DataLayer Get DOM Ready Timestamp}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "calcFunctionName",
+                        "value": "subtract"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "functionType",
+                        "value": "calc"
+                    }
+                ],
+                "fingerprint": "1750093815223",
+                "parentFolderId": "938",
+                "formatValue": {}
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "variableId": "1127",
+                "name": "Page Performance Page Load ms",
+                "type": "cvt_5TJMM",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "op2",
+                        "value": "{{DataLayer Get Initialization Timestamp}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "resultTransformation",
+                        "value": "none"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "op1",
+                        "value": "{{DataLayer Get Page Load Timestamp}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "calcFunctionName",
+                        "value": "subtract"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "functionType",
+                        "value": "calc"
+                    }
+                ],
+                "fingerprint": "1750093856039",
+                "parentFolderId": "938",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "folderId": "4",
+                "name": "Analytics",
+                "fingerprint": "1729625517906"
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "folderId": "855",
+                "name": "Session Timestamp",
+                "fingerprint": "1732429630043"
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "folderId": "938",
+                "name": "Page Performance Statistics",
+                "fingerprint": "1735936784408"
+            }
+        ],
+        "fingerprint": "1750108424307",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/999999999/containers/999999999/versions/0?apiLink=version",
+        "customTemplate": [
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "templateId": "679",
+                "name": "Timestamp",
+                "fingerprint": "1732429630050",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"Timestamp\",\n  \"categories\": [\n    \"UTILITY\",\n    \"TAG_MANAGEMENT\"\n  ],\n  \"description\": \"Returns a \\u003cstrong\\u003enumber\\u003c/strong\\u003e that represents the current time in milliseconds since the epoch (UTC timezone).\",\n  \"containerContexts\": [\n    \"WEB\"\n  ],\n  \"brand\": {\n    \"displayName\": \"luratic\",\n    \"id\": \"github.com_luratic\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"LABEL\",\n    \"name\": \"Documentation\",\n    \"displayName\": \"\\u003cstrong\\u003e\\u003ca href\\u003d\\\"https://www.luratic.com/posts/templates/variables/timestamp/\\\"\\u003eDocumentation\\u003c/a\\u003e\\u003c/strong\\u003e\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst getTimestampMillis = require ('getTimestampMillis');\nreturn getTimestampMillis();\n\n\n___TESTS___\n\nscenarios:\n- name: Variable result is defined\n  code: |-\n    // Call runCode to run the template's code.\n    let variableResult = runCode();\n\n    // Validate that the result of runCode is defined.\n    assertThat(variableResult).isDefined();\n\n\n___NOTES___\n\nDeveloped with ❤ by: Alfonso, Txema and Brais.\nWeb: www.luratic.com\nLinkedin: \nhttps://www.linkedin.com/in/braiscalvo/\nhttps://www.linkedin.com/in/alfonsorc/\nhttps://www.linkedin.com/in/txema-s%C3%A1nchez-a48482ba/\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "luratic",
+                    "repository": "Timestamp",
+                    "version": "8c2e414949799e1622d01e5097d8af4797b758af",
+                    "signature": "234fd14363c605c7a3eaec51533f430b5e47d782bcf4d228fc6409113b3ea35e"
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "templateId": "681",
+                "name": "Number & String Operations",
+                "fingerprint": "1748522521322",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_5TJMM\",\n  \"version\": 1,\n  \"displayName\": \"Number \\u0026 String Operations\",\n  \"categories\": [\n    \"UTILITY\"\n  ],\n  \"description\": \"Set of Math and string manipulation operations in case you need to do some \\\"transformation light\\\" with event data and request parameters\",\n  \"containerContexts\": [\n    \"WEB\"\n  ],\n  \"brand\": {\n    \"displayName\": \"mbaersch\",\n    \"id\": \"github.com_mbaersch\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"functionType\",\n    \"displayName\": \"Operation Type\",\n    \"macrosInSelect\": false,\n    \"selectItems\": [\n      {\n        \"value\": \"calc\",\n        \"displayValue\": \"Calculate\"\n      },\n      {\n        \"value\": \"math\",\n        \"displayValue\": \"Math Methods\"\n      },\n      {\n        \"value\": \"strings\",\n        \"displayValue\": \"String Functions\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"help\": \"Pick a class of operations to perform\"\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"calcFunctionName\",\n    \"displayName\": \"Operation\",\n    \"selectItems\": [\n      {\n        \"value\": \"add\",\n        \"displayValue\": \"add (+)\"\n      },\n      {\n        \"value\": \"subtract\",\n        \"displayValue\": \"subtract (-)\"\n      },\n      {\n        \"value\": \"multiply\",\n        \"displayValue\": \"multiply (*)\"\n      },\n      {\n        \"value\": \"divide\",\n        \"displayValue\": \"divide (/)\"\n      },\n      {\n        \"value\": \"b_and\",\n        \"displayValue\": \"AND (boolean)\"\n      },\n      {\n        \"value\": \"b_or\",\n        \"displayValue\": \"OR (boolean)\"\n      },\n      {\n        \"value\": \"b_not\",\n        \"displayValue\": \"NOT (boolean)\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"functionType\",\n        \"paramValue\": \"calc\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"mathMethodName\",\n    \"displayName\": \"Method\",\n    \"selectItems\": [\n      {\n        \"value\": \"abs\",\n        \"displayValue\": \"abs\"\n      },\n      {\n        \"value\": \"ceil\",\n        \"displayValue\": \"ceil\"\n      },\n      {\n        \"value\": \"floor\",\n        \"displayValue\": \"floor\"\n      },\n      {\n        \"value\": \"max\",\n        \"displayValue\": \"max\"\n      },\n      {\n        \"value\": \"min\",\n        \"displayValue\": \"min\"\n      },\n      {\n        \"value\": \"round\",\n        \"displayValue\": \"round\"\n      },\n      {\n        \"value\": \"trunc\",\n        \"displayValue\": \"trunc\"\n      },\n      {\n        \"value\": \"pow\",\n        \"displayValue\": \"pow\"\n      },\n      {\n        \"value\": \"sqrt\",\n        \"displayValue\": \"sqrt\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"functionType\",\n        \"paramValue\": \"math\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"stringMethodName\",\n    \"displayName\": \"Function\",\n    \"selectItems\": [\n      {\n        \"value\": \"indexOf\",\n        \"displayValue\": \"indexOf\"\n      },\n      {\n        \"value\": \"lastIndexOf\",\n        \"displayValue\": \"lastIndexOf\"\n      },\n      {\n        \"value\": \"split\",\n        \"displayValue\": \"split\"\n      },\n      {\n        \"value\": \"toLowerCase\",\n        \"displayValue\": \"toLowerCase\"\n      },\n      {\n        \"value\": \"toUpperCase\",\n        \"displayValue\": \"toUpperCase\"\n      },\n      {\n        \"value\": \"replace\",\n        \"displayValue\": \"replace\"\n      },\n      {\n        \"value\": \"slice\",\n        \"displayValue\": \"slice\"\n      },\n      {\n        \"value\": \"substr\",\n        \"displayValue\": \"substr\"\n      },\n      {\n        \"value\": \"substring\",\n        \"displayValue\": \"substring\"\n      },\n      {\n        \"value\": \"match\",\n        \"displayValue\": \"match\"\n      },\n      {\n        \"value\": \"base64\",\n        \"displayValue\": \"base64\"\n      },\n      {\n        \"value\": \"toFixed\",\n        \"displayValue\": \"toFixed (Param2 \\u003d Decimals)\"\n      },\n      {\n        \"value\": \"toNumber\",\n        \"displayValue\": \"toNumber\"\n      },\n      {\n        \"value\": \"replaceAll\",\n        \"displayValue\": \"replaceAll\"\n      },\n      {\n        \"value\": \"splitSpecial\",\n        \"displayValue\": \"split+extract (split, then get item at param 3 index)\"\n      },\n      {\n        \"value\": \"jstringify\",\n        \"displayValue\": \"JSON.stringify\"\n      },\n      {\n        \"value\": \"jparse\",\n        \"displayValue\": \"JSON.parse\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"functionType\",\n        \"paramValue\": \"strings\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"op1\",\n    \"displayName\": \"Parameter 1\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"op2\",\n    \"displayName\": \"Parameter 2\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"REGEX\",\n        \"args\": [\n          \"^.+$\"\n        ]\n      }\n    ],\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"calcFunctionName\",\n        \"paramValue\": \"b_not\",\n        \"type\": \"NOT_EQUALS\"\n      },\n      {\n        \"paramName\": \"mathMethodName\",\n        \"paramValue\": \"min\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"mathMethodName\",\n        \"paramValue\": \"max\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"indexOf\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"lastIndexOf\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"match\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"replace\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"slice\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"substr\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"substring\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"toFixed\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"mathMethodName\",\n        \"paramValue\": \"pow\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"replaceAll\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"split\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"splitSpecial\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"op3\",\n    \"displayName\": \"Parameter 3\",\n    \"simpleValueType\": true,\n    \"enablingConditions\": [\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"replace\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"replaceAll\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"slice\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"substr\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"substring\",\n        \"type\": \"EQUALS\"\n      },\n      {\n        \"paramName\": \"stringMethodName\",\n        \"paramValue\": \"splitSpecial\",\n        \"type\": \"EQUALS\"\n      }\n    ]\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"resultTransformation\",\n    \"displayName\": \"Result Transformation\",\n    \"macrosInSelect\": false,\n    \"selectItems\": [\n      {\n        \"value\": \"none\",\n        \"displayValue\": \"None (unchanged)\"\n      },\n      {\n        \"value\": \"round\",\n        \"displayValue\": \"Convert To Integer (Rounded)\"\n      },\n      {\n        \"value\": \"fixed\",\n        \"displayValue\": \"Convert to Fixed (2 Decimals)\"\n      },\n      {\n        \"value\": \"floor\",\n        \"displayValue\": \"Convert To Integer (Truncated)\"\n      },\n      {\n        \"value\": \"string\",\n        \"displayValue\": \"Convert To String\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ],\n    \"defaultValue\": \"none\",\n    \"help\": \"Choose a transformation method to ensure desired output format\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n//const log = require(\"logToConsole\");\nconst Math = require(\"Math\");\nconst makeNumber = require('makeNumber');\nconst makeString = require('makeString');\nconst JSON = require('JSON');\nconst toBase64 = require('toBase64');\n\nvar rs;\nconst tp = data.functionType;\nvar op1 = makeNumber(data.op1);\nvar op2 = makeNumber(data.op2);\nvar op3 = makeNumber(data.op3);\n\nconst replaceAll = function(str, oldstr, newstr) {\n  var rs = str;\n  if (oldstr === newstr) return rs;\n  while (rs.indexOf(oldstr) >= 0)\n    rs = rs.replace(oldstr, newstr);\n  return rs;\n};  \n\nswitch(tp) {\n  case \"calc\": \n    const fn = data.calcFunctionName;\n    \n    if (fn.indexOf(\"b_\") >= 0) {\n      var op1_bool = makeString(data.op1).toLowerCase();\n      op1_bool = op1_bool === \"true\" || op1_bool === \"1\";\n      var op2_bool = makeString(data.op2).toLowerCase();\n      op2_bool = op2_bool === \"true\" || op2_bool === \"1\";\n    }\n    \n    switch(fn) {\n      case \"add\": rs = op1 + op2; break;\n      case \"subtract\": rs = op1 - op2; break;\n      case \"multiply\": rs = op1 * op2; break;\n      case \"divide\": rs = op1 / op2; break;\n      case \"b_and\": rs = op1_bool && op2_bool; break;\n      case \"b_or\": rs = op1_bool || op2_bool; break;\n      case \"b_not\": rs = !op1_bool; break;\n    }    \n    break;\n  case \"math\": \n    const mf = data.mathMethodName;\n    switch(mf) {\n      case \"abs\": rs = Math.abs(op1); break;\n      case \"ceil\": rs = Math.ceil(op1); break;\n      case \"floor\": rs = Math.floor(op1); break;\n      case \"max\": rs = Math.max(op1, op2); break;\n      case \"min\": rs = Math.min(op1, op2); break;\n      case \"round\": rs = Math.round(op1); break;\n      case \"trunc\": rs = Math.floor(op1); break;\n      case \"pow\": rs = Math.pow(op1, op2); break;\n      case \"sqrt\": rs = Math.sqrt(op1); break;\n    }    \n    break;\n  case \"strings\":\n    op1 = makeString(data.op1);\n    var op2s = makeString(data.op2 || \"\");\n    var op3s = makeString(data.op3 || \"\");\n    const sf = data.stringMethodName;\n    switch(sf) {\n      case \"indexOf\": rs = op1.indexOf(op2s); break;\n      case \"lastIndexOf\": rs = op1.lastIndexOf(op2s); break;\n      case \"split\": rs = op1.split(op2s); break;\n      case \"splitSpecial\": \n        rs = op1.split(op2s); \n        rs = (rs.length >= op3) ? rs[op3s] : undefined;\n        break;\n      case \"toLowerCase\": rs = op1.toLowerCase(); break;\n      case \"toUpperCase\": rs = op1.toUpperCase(); break;\n      case \"replace\": rs = op1.replace(op2s, op3s); break;\n      case \"replaceAll\": rs = replaceAll(op1, op2s, op3s); break;\n      case \"slice\": rs = op1.slice(op2, op3); break;\n      case \"substr\": rs = op1.substring(op2, op3+op2); break;\n      case \"substring\": rs = op1.substring(op2, op3); break;\n      case \"toFixed\": var mul = Math.pow(10, op2) ; rs = makeNumber(Math.round(op1*mul) / mul); break;\n      case \"toNumber\": \n        var idxComma = op1.indexOf(\",\"); \n        var idxDot = op1.indexOf(\".\");\n        if ((idxComma > 0) && (idxDot > 0)) {\n          if (idxComma > idxDot) \n            rs = replaceAll(replaceAll(op1, \".\", \"\"), \",\", \".\");\n          else\n            rs = replaceAll(op1, \",\", \"\"); \n        } else if (idxComma > 0)\n          rs = replaceAll(op1, \",\", \".\");\n        rs = makeNumber(rs);\n        break;\n      case \"match\": var fnd = op1.match(op2s);          \n        if (fnd) { rs = fnd[0]; }    \n        break;\n      case \"base64\": rs = toBase64(op1); break;  \n      case \"jstringify\": rs = JSON.stringify(data.op1); break;  \n      case \"jparse\": rs = JSON.parse(data.op1); break;  \n    }    \n    break;\n}\n      \nconst rt = data.resultTransformation;\nif (tp===\"calc\" && data.calcFunctionName.indexOf(\"b_\") >= 0) {\n  if (rt == 'string') return makeString(rs);\n  if (rt == 'round') return (rs === true) ? 1 : 0;\n  return rs;\n}\nif (rt == 'round') return Math.round(makeNumber(rs)); else\nif (rt == 'string') return makeString(makeNumber(rs)); else\nif (rt == 'floor') return Math.floor(makeNumber(rs)); else\nif (rt == 'fixed') return makeNumber(Math.round(makeNumber(rs)*100) / 100); else\nreturn rs;\n\n\n___TESTS___\n\nscenarios: []\nsetup: ''\n\n\n___NOTES___\n\nCreated on 17.10.2024, 03:22:00\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "mbaersch",
+                    "repository": "number-string-operations-web",
+                    "version": "9d6fcc5ded14c8e78c35fd0d19f0f6d816bf9379",
+                    "signature": "6cd00a96a0e248be6a94135a2c1c2aa8477394670cd8a238f5eeb812be4d1848",
+                    "galleryTemplateId": "5TJMM"
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "templateId": "691",
+                "name": "URL Components Parser",
+                "fingerprint": "1744641744822",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"URL Components Parser\",\n  \"description\": \"Given a valid URL and a component name, this template will parse the URL and extract the component from the URL.\",\n  \"brand\": {\n    \"id\": \"github.com_justia\",\n    \"displayName\": \"justia\",\n    \"thumbnail\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAABoVBMVEUGNXr////7/P0KOHwJN3wINnv+/v4AJ3EHNnv9/v4IN3sJOHz+/v8AKHEALHT8/P39/f4HNnr8/f4AKnMAL3YAKHIAK3MEMnhKbJ6ZrMn8/f0AK3T+//+YrMgBLnYCMXhIap13kLaOo8MJN3sEMXgFM3kGNHoIN3wjTYoAKXIAJnAALXWcr8r29/r6+/0AJW8AKnIBK3MBL3YAMHcEL3YDMHYCMXcEMHcEMXcDMngDM3gENHkGM3kFNHkFNXoHNXoGNnoLNnsNOHwOOHwNOX0MO34RPoASQIEYQoIYQoMYQ4QkTYpDZptCZpoYRIQbRYQcR4YfR4YgSogkToopUY0qUo0zWZI1W5M4XZU6XpU+Y5g/ZJlCY5hDZ5tFaJxGaJxGaZxNbqBRcqJUc6NefalnhK5tibFyjLNzjbSFnL6PpMOVqseXqseXq8iZrMiarcmbrsmdr8qjtc6mt9Cywda2xNi5xtq7x9rBzN7Ez9/H0uHP2ObQ2eba4evc4+zh5u/j6fDm6/Ln7PLs7/Xt8fXw8vfw8/f3+fv4+vz5+vz6+/yJ4WSoAAABrElEQVR4Xu2VVa/cMBQG+9lBhmW+zMzMZWZmZmZm+NV1lL0rVa20Th4rj5THGZ1Yts4WPgQCn26SzF/JqbbKsFW7M4kvp48OVO4VCoXK/Tu7alr8QHv2HBQwyiCH03KCQGkvfhHGUPB9d7LAnsYE/0FABERABERABM4mCGj+H4vFAsOKETA6uhpL0Oy9BK8e6OEMdFcPrueMeoCqrSBRYPDQuMbjm+kdHwYyC7QeKD1HEQwd77fN+Tzz59ZeAY9XU9203ZC29p1BRICXXH+gdU0/AXHx5rRjO/2jw0feQUcIQZtNm/u+nH0IAgRQnl09dTzf9hUKQqCjJSs1D8h9N0Mf8PTIU/RN/+3GfPMjMJwbcBFRJAo89kUQXLdNnnv3AD/xD1y8pos+xxEsTT7CkP6XH+DHSUfiusSdE7ehR4M3UAjcy70m5zNYHrnyGYrrKuW6XSQ6Pp5nPie+lNl/6xsswAsYFsoYvLszxXxuzBn1wLWnnzyEWF9etPZkOpgfA9mcUp3txy7kL+ZbTuyrqmNm7H2gUWO2PxXi1GTK9ARohiSZkmRo3EZyBILfSzxK15953BYAAAAASUVORK5CYII\\u003d\"\n  },\n  \"containerContexts\": [\n    \"WEB\"\n  ],\n  \"categories\": [\n    \"UTILITY\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"url\",\n    \"simpleValueType\": true,\n    \"valueHint\": \"e.g. https://my.domain.com/and-this-is-my-path?test\\u003d1\",\n    \"displayName\": \"URL\",\n    \"help\": \"Enter a valid URL to extract a component from it. You can enter a URL string or a variable name such as \\u003cstrong\\u003e{{ Page URL }}\\u003c/strong\\u003e (\\u003ca href\\u003d\\\"https://support.google.com/tagmanager/answer/7182738?hl\\u003den#pages\\\"\\u003ebuilt-in variable\\u003c/a\\u003e). If an invalid URL is provided, undefined will be returned.\"\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"component\",\n    \"displayName\": \"URL Component\",\n    \"macrosInSelect\": false,\n    \"selectItems\": [\n      {\n        \"value\": \"protocol\",\n        \"displayValue\": \"Protocol\"\n      },\n      {\n        \"value\": \"domain\",\n        \"displayValue\": \"Domain\"\n      },\n      {\n        \"value\": \"rootDomain\",\n        \"displayValue\": \"Root Domain\"\n      },\n      {\n        \"value\": \"subdomain\",\n        \"displayValue\": \"Subdomain\"\n      },\n      {\n        \"value\": \"tld\",\n        \"displayValue\": \"Top-Level Domain (TLD)\"\n      },\n      {\n        \"value\": \"path\",\n        \"displayValue\": \"Path\"\n      },\n      {\n        \"value\": \"query\",\n        \"displayValue\": \"Query String\"\n      },\n      {\n        \"value\": \"hash\",\n        \"displayValue\": \"Hash\"\n      },\n      {\n        \"value\": \"port\",\n        \"displayValue\": \"Port\"\n      },\n      {\n        \"value\": \"url\",\n        \"displayValue\": \"URL\"\n      },\n      {\n        \"value\": \"object\",\n        \"displayValue\": \"Full Object\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"help\": \"See details in our \\u003ca href\\u003d\\\"https://github.com/justia/gtm-url-components-parser-variable/\\\"\\u003eGithub page\\u003c/a\\u003e.\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"ccSLD\",\n    \"checkboxText\": \"Country code second-level domain\",\n    \"simpleValueType\": true,\n    \"help\": \"Many domains end with classic top-level domains such as \\u003cem\\u003e.com\\u003c/em\\u003e, \\u003cem\\u003e.net\\u003c/em\\u003e, \\u003cem\\u003e.org\\u003c/em\\u003e, etc. However there are country top-level domains such as \\u003cem\\u003e.mx\\u003c/em\\u003e and \\u003cem\\u003e.uk\\u003c/em\\u003e. Such country code top-level domains usually have a \\u003ca href\\u003d\\\"https://en.wikipedia.org/wiki/Country_code_second-level_domain\\\"\\u003ecountry code second-level domain (ccSLD)\\u003c/a\\u003e, such as \\u003cem\\u003e.com.mx\\u003c/em\\u003e and \\u003cem\\u003e.ac.uk\\u003c/em\\u003e.\\nBy default, this tool assumes the URL does not contain a ccSLD. Check this box in case it does (for example, for domains such as https://my.domain.co.uk and https://www.domain.com.mx).\"\n  },\n  {\n    \"type\": \"CHECKBOX\",\n    \"name\": \"decodeUrl\",\n    \"checkboxText\": \"Decode URL\",\n    \"simpleValueType\": true,\n    \"help\": \"Check this box if you would like to decode the URL before parsing it.\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n// APIs\nconst parseUrl = require('parseUrl');\nconst decodeUri = require('decodeUriComponent');\nconst makeNumber = require('makeNumber');\nconst Math = require('Math');\n// const log = require('logToConsole');\n\n// Inputs\nconst sourceUrl = data.decodeUrl ? decodeUri(data.url) : data.url;\nconst url = parseUrl(sourceUrl);\nconst component = data.component;\nconst ccSLD = data.ccSLD || false;\n\n// Data Validation\nif (typeof url === 'undefined') {\n  return undefined;\n}\n\n// Logic\nconst parts = url.hostname.split('.');\nconst totalParts = parts.length;\n// this actually works for N number of tld nodes\nconst tldNodes = ccSLD ? 2 : 1;\nconst result = {};\n\nresult.protocol = url.protocol;\nresult.domain = url.hostname;\nresult.rootDomain = extractPartFromDomain(parts, tldNodes + 1, totalParts, true);\nresult.subdomain = extractPartFromDomain(parts, tldNodes + 1, totalParts, false);\nresult.tld = extractPartFromDomain(parts, tldNodes, totalParts, true);\nresult.path = url.pathname;\nresult.query = url.search;\nresult.hash = url.hash;\nresult.port = url.port;\nresult.url = url.href;\n\n// Variables must return a value.\nif (component === 'object') {\n  return result;\n}\n\nreturn result[component];\n\n\n//****************************************\n// Functions\nfunction isIp(parts) {\n  // apparently, there's no support for regex :(\n  return makeNumber(parts.join('')) == parts.join('');\n}\n\nfunction extractPartFromDomain(parts, tldNodes, totalNodes, extractSuffix) {\n  if (isIp(parts)) {\n    return parts.join('.');\n  }\n  \n  let filterSuffix = (index) => {\n    return (index + tldNodes) >= totalNodes;\n  };\n  \n  let filterPrefix = (index) => {\n    return (totalNodes - index - tldNodes) > 0; \n  };\n  \n  return parts.filter((node, i) => { \n    return extractSuffix ? filterSuffix(i) : filterPrefix(i);\n  }).join('.');\n}\n\n\n___TESTS___\n\nscenarios:\n- name: Extract protocol\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain',\n      component: 'protocol'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('https:');\n- name: Extract domain\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain',\n      component: 'domain'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('en.wikipedia.org');\n- name: Extract root domain\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain',\n      component: 'rootDomain'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('wikipedia.org');\n- name: Extract root domain from localhost\n  code: |\n    const mockData = {\n      url: 'https://localhost/wiki/Top-level_domain',\n      component: 'domain'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('localhost');\n- name: Extract root domain from localhost with ccSLD\n  code: |\n    const mockData = {\n      url: 'https://localhost/wiki/Top-level_domain',\n      component: 'domain',\n      ccSLD: true\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('localhost');\n- name: Extract root domain from IP\n  code: |\n    const mockData = {\n      url: 'http://192.158.0.2/wiki/Top-level_domain',\n      component: 'domain',\n      ccSLD: true\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('192.158.0.2');\n- name: Extract root domain with ccSLD\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.co.uk/wiki/Top-level_domain',\n      component: 'rootDomain',\n      ccSLD: true\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('wikipedia.co.uk');\n- name: Extract subdomain\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain',\n      component: 'subdomain'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('en');\n- name: Extract double subdomain\n  code: |\n    const mockData = {\n      url: 'https://en.sub.wikipedia.org/wiki/Top-level_domain',\n      component: 'subdomain'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('en.sub');\n- name: Extract subdomain with ccSLD\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.co.uk/wiki/Top-level_domain',\n      component: 'subdomain',\n      ccSLD: true\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('en');\n- name: Extract top level domain (tld)\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain',\n      component: 'tld'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('org');\n- name: Extract path\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain?foo=bar',\n      component: 'path'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('/wiki/Top-level_domain');\n- name: Extract query string\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain?foo=bar',\n      component: 'query'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo(\"?foo=bar\");\n- name: Extract hash\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain#foo',\n      component: 'hash'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isEqualTo('#foo');\n- name: Test wrong component\n  code: |-\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/Top-level_domain',\n      component: 'wrong'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isUndefined();\n- name: Test invalid URL\n  code: |-\n    const mockData = {\n      url: 'https//en.wikipedia.org/wiki/Stanford_Cardinal_women%27s_basketball?test=hello',\n      component: 'wrong'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertThat(result).isUndefined();\n- name: Extract Full Object\n  code: |\n    const mockData = {\n      url: 'https://en.wikipedia.co.uk/wiki/Top-level_domain?foo=bar#yes',\n      component: 'object',\n      ccSLD: true\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertApi('parseUrl').wasCalled();\n    assertThat(result.url).isEqualTo(mockData.url);\n    assertThat(result.rootDomain).isEqualTo(\"wikipedia.co.uk\");\n    assertThat(result.tld).isEqualTo(\"co.uk\");\n    assertThat(result.subdomain).isEqualTo(\"en\");\n- name: Test encoded URL without decode\n  code: |+\n    const mockData = {\n      url: 'https://en.wikipedia.org/wiki/foo%27bar',\n      component: 'object'\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertApi('decodeUri').wasNotCalled();\n    assertThat(result.url).isEqualTo(\"https://en.wikipedia.org/wiki/foo%27bar\");\n\n- name: Test encoded URL with decode\n  code: |+\n    const mockData = {\n      url: 'https://en.wikipedia.org%2Fwiki%2Ffo+o%27bar_foo%3Ffoo%3Dba+roo%26bar%3Dfoo+bar',\n      component: 'object',\n      decodeUrl: true\n    };\n\n    // Call runCode to run the template's code.\n    let result = runCode(mockData);\n\n    // Verify that the variable returns a result.\n    assertApi('decodeUriComponent').wasCalled();\n    assertThat(result.url).isEqualTo(\"https://en.wikipedia.org/wiki/fo+o'bar_foo?foo=ba+roo&bar=foo+bar\");\n\nsetup: ''\n\n\n___NOTES___\n\nCreated on 4/12/2021, 12:00:04 PM\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "justia",
+                    "repository": "gtm-url-components-parser-variable",
+                    "version": "8426b74b40444f75beb4f8793c5b91de54a6b3c3",
+                    "signature": "969fc5c043a3f977ee5ac4c3f443446e8f80ee5563d9834f39223a424ac61bb2"
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "templateId": "906",
+                "name": "DataLayer Push Custom Event",
+                "fingerprint": "1734449088083",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"DataLayer Push Custom Event\",\n  \"brand\": {\n    \"id\": \"github.com_TD-turingdigital\",\n    \"displayName\": \"TD-turingdigital\",\n    \"thumbnail\": \"data:image/jpeg;base64,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\"\n  },\n  \"description\": \"Push custom event and variable into Datalayer object.\",\n  \"containerContexts\": [\n    \"WEB\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"eventName\",\n    \"displayName\": \"Event Name\",\n    \"simpleValueType\": true,\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  },\n  {\n    \"type\": \"SIMPLE_TABLE\",\n    \"name\": \"varSet\",\n    \"displayName\": \"variable and values\",\n    \"simpleTableColumns\": [\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"Variable\",\n        \"name\": \"varName\",\n        \"type\": \"TEXT\"\n      },\n      {\n        \"defaultValue\": \"\",\n        \"displayName\": \"Value\",\n        \"name\": \"varValue\",\n        \"type\": \"TEXT\"\n      }\n    ],\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\"\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst createQueue = require('createQueue');\nconst dataLayerPush = createQueue('dataLayer');\nconst makeTableMap = require('makeTableMap');\n\nconst merge = function() {\n  const obj = {},\n          il = arguments.length;\n    let i = 0,\n        key;\n    for (; i < il; i++) {\n      for (key in arguments[i]) {\n        if (arguments[i].hasOwnProperty(key)) {\n          obj[key] = arguments[i][key];\n        }\n      }\n    }\n    return obj;\n  };\n\nconst eventName =  {'event' :  data.eventName };\nconst varSet = makeTableMap(data.varSet, 'varName', 'varValue');\nconst DLayer = merge(eventName, varSet);\n\ndataLayerPush(DLayer);\ndata.gtmOnSuccess();\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"access_globals\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"keys\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"key\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"read\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"write\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"execute\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"dataLayer\"\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": false\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 2021/11/3 下午4:53:59\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "TD-turingdigital",
+                    "repository": "DataLayer-Push-Custom-Event",
+                    "version": "985bbe544e5d497445d48f7a5eddc6021cda8e88",
+                    "signature": "9883e4c8d59fcbadfc9a64e764733256c26e9e7345b52094d5f199400a791208"
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "templateId": "961",
+                "name": "If Else If - Advanced Lookup Table",
+                "fingerprint": "1744643546478",
+                "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"displayName\": \"If Else If - Advanced Lookup Table\",\n  \"description\": \"An advanced lookup table with multiple tests and returns (by Sublimetrix)\",\n  \"securityGroups\": [],\n  \"id\": \"cvt_temp_public_id\",\n  \"type\": \"MACRO\",\n  \"version\": 1,\n  \"containerContexts\": [\n    \"WEB\"\n  ],\n  \"brand\": {\n    \"displayName\": \"sublimetrix\",\n    \"id\": \"github.com_sublimetrix\"\n  }\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"displayName\": \"Documentation : https://github.com/sublimetrix/gtm-template-ifelseif\",\n    \"name\": \"documentation\",\n    \"type\": \"LABEL\"\n  },\n  {\n    \"alwaysInSummary\": false,\n    \"displayName\": \"Rule table\",\n    \"name\": \"rule_table\",\n    \"simpleTableColumns\": [\n      {\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"defaultValue\": \"\",\n        \"displayName\": \"If\",\n        \"name\": \"entry\",\n        \"type\": \"TEXT\"\n      },\n      {\n        \"selectItems\": [\n          {\n            \"displayValue\": \"equals\",\n            \"value\": \"equals\"\n          },\n          {\n            \"displayValue\": \"contains\",\n            \"value\": \"contains\"\n          },\n          {\n            \"displayValue\": \"starts with\",\n            \"value\": \"startsWith\"\n          },\n          {\n            \"displayValue\": \"ends with\",\n            \"value\": \"endsWith\"\n          },\n          {\n            \"displayValue\": \"matches RegEx\",\n            \"value\": \"matchesRegEx\"\n          },\n          {\n            \"displayValue\": \"matches RegEx (ignore case)\",\n            \"value\": \"matchesRegExIgnoreCase\"\n          },\n          {\n            \"displayValue\": \"does not equal\",\n            \"value\": \"doesNotEqual\"\n          },\n          {\n            \"displayValue\": \"does not contain\",\n            \"value\": \"doesNotContain\"\n          },\n          {\n            \"displayValue\": \"does not start with\",\n            \"value\": \"doesNotStartWith\"\n          },\n          {\n            \"displayValue\": \"does not end with\",\n            \"value\": \"doesNotEndWith\"\n          },\n          {\n            \"displayValue\": \"does not match RegEx\",\n            \"value\": \"doesNotMatchRegEx\"\n          },\n          {\n            \"displayValue\": \"does not match RegEx (ignore case)\",\n            \"value\": \"doesNotMatchRegExIgnoreCase\"\n          },\n          {\n            \"displayValue\": \"less than\",\n            \"value\": \"lessThan\"\n          },\n          {\n            \"displayValue\": \"less than or equal to\",\n            \"value\": \"lessThanOrEqualTo\"\n          },\n          {\n            \"displayValue\": \"greater than\",\n            \"value\": \"greaterThan\"\n          },\n          {\n            \"displayValue\": \"greater than or equal to\",\n            \"value\": \"greaterThanOrEqualTo\"\n          }\n        ],\n        \"defaultValue\": \"equals\",\n        \"displayName\": \"Matches\",\n        \"name\": \"method\",\n        \"type\": \"SELECT\"\n      },\n      {\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"defaultValue\": \"\",\n        \"displayName\": \"This\",\n        \"name\": \"comparator\",\n        \"isUnique\": false,\n        \"type\": \"TEXT\"\n      },\n      {\n        \"selectItems\": [],\n        \"valueValidators\": [\n          {\n            \"type\": \"NON_EMPTY\"\n          }\n        ],\n        \"defaultValue\": \"\",\n        \"displayName\": \"Return\",\n        \"name\": \"returnValue\",\n        \"type\": \"TEXT\"\n      }\n    ],\n    \"type\": \"SIMPLE_TABLE\",\n    \"newRowButtonText\": \"Else If\"\n  },\n  {\n    \"displayName\": \"Else (default value, leave empty to return undefined)\",\n    \"simpleValueType\": true,\n    \"name\": \"default_value\",\n    \"type\": \"TEXT\"\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n//const log = require('logToConsole');\n//log('data =', data);\nconst defaultValue = data.default_value;\n\nconst RULE = {\n  equals: (entry,comp) => {\n  \treturn entry == comp;\n  },\n  contains: (entry,comp) => {\n  \treturn (-1 < entry.indexOf(comp));\n  },\n  startsWith: (entry,comp) => {\n  \treturn entry.match('^('+comp+')');\n  },\n  endsWith: (entry,comp) => {\n  \treturn entry.match('('+comp+')$');\n  },\n  /***\n   *** not available\n  matchesCssSelector: (entry,comp) => {\n  \treturn entry.match(comp); // wip\n  },\n  ***/\n  matchesRegEx: (entry,comp) => {\n  \treturn entry.match(comp);\n  },\n  matchesRegExIgnoreCase: (entry,comp) => {\n  \treturn entry.toLowerCase().match(comp.toLowerCase());\n  },\n  doesNotEqual: (entry,comp) => {\n  \treturn entry != comp;\n  },\n  doesNotContain: (entry,comp) => {\n  \treturn (-1 > entry.indexOf(comp));\n  },\n  doesNotStartWith: (entry,comp) => {\n  \treturn !entry.match('^('+comp+')');\n  },\n  doesNotEndWith: (entry,comp) => {\n  \treturn !entry.match('('+comp+')$');\n  },\n  /***\n   *** not available\n  doesNotMatchCssSelector: (entry,comp) => {\n  \treturn false; // wip\n  },\n  ***/\n  doesNotMatchRegEx: (entry,comp) => {\n  \treturn !entry.match(comp);\n  },\n  doesNotMatchRegExIgnoreCase: (entry,comp) => {\n  \treturn !entry.toLowerCase().match(comp.toLowerCase());\n  },\n  lessThan: (entry,comp) => {\n  \treturn entry < comp;\n  },\n  lessThanOrEqualTo: (entry,comp) => {\n  \treturn entry <= comp;\n  },\n  greaterThan: (entry,comp) => {\n  \treturn entry > comp;\n  },\n  greaterThanOrEqualTo: (entry,comp) => {\n  \treturn entry >= comp;\n  }\n};\n\nconst rules = data.rule_table;\nif ('undefined' != typeof rules) {\n  for (let i=0; i<rules.length; i++) {\n    const rule = rules[i];\n    if ( RULE[rule.method](resolve(rule.entry),resolve(rule.comparator)) ) return rule.returnValue;\n  }\n}\n\nfunction resolve(x)\n{\n  switch (typeof x) {\n    case 'undefined': x = typeof x; break;\n    case 'boolean': x = x ? 'true' : 'false'; break;\n  }\n  return x;\n}\n\nreturn defaultValue;\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\n/*** SUBLIMETRIX ***/\nVersion: 1.0.0\nAuthor: Sublimetrix\nDate: 2019.10.09\n/*******************/\n\nChange Log:\n1.0.0: Initial Version\n1.1.0: Default value\n1.1.1: Fix boolean issue + remove log requirement\n1.1.2: Optimization\n1.2.0: Name change\n1.2.1: Fix on \"contains\" & \"does not contains\" comparators\n\n\n",
+                "galleryReference": {
+                    "host": "github.com",
+                    "owner": "sublimetrix",
+                    "repository": "gtm-template-ifelseif",
+                    "version": "1a2a5ad38afc4539d9adde44db786eac0cc70071",
+                    "signature": "ae330cad0667e003bca886ae2419515e9b5a894b5ea88607d9edd2f2c65015b7"
+                }
+            },
+            {
+                "accountId": "999999999",
+                "containerId": "999999999",
+                "templateId": "1034",
+                "name": "GA4 Session Cookie Parser",
+                "fingerprint": "1747407016998",
+                "templateData": "___INFO___\n\n{\n  \"type\": \"MACRO\",\n  \"id\": \"cvt_temp_public_id\",\n  \"version\": 1,\n  \"securityGroups\": [],\n  \"displayName\": \"GA4 Session Cookie Parser\",\n  \"description\": \"The variable extracts a specific value from a GA4 (GS2-formatted) cookie based on a provided prefix. https://github.com/selnekovic/gtm-templates/tree/main/GA4%20Cookie%20Parser\",\n  \"containerContexts\": [\n    \"WEB\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"measurementId\",\n    \"displayName\": \"Measurement Id\",\n    \"simpleValueType\": true,\n    \"valueHint\": \"G-123456789\",\n    \"alwaysInSummary\": true\n  },\n  {\n    \"type\": \"SELECT\",\n    \"name\": \"prefix\",\n    \"displayName\": \"Cookie parameter\",\n    \"macrosInSelect\": false,\n    \"selectItems\": [\n      {\n        \"value\": \"s\",\n        \"displayValue\": \"Session Id\"\n      },\n      {\n        \"value\": \"o\",\n        \"displayValue\": \"Session number\"\n      },\n      {\n        \"value\": \"g\",\n        \"displayValue\": \"Session engaged\"\n      },\n      {\n        \"value\": \"t\",\n        \"displayValue\": \"Last Hit Timestamp\"\n      },\n      {\n        \"value\": \"j\",\n        \"displayValue\": \"Join Timer\"\n      },\n      {\n        \"value\": \"l\",\n        \"displayValue\": \"Enhanced User Id Logged In State\"\n      },\n      {\n        \"value\": \"h\",\n        \"displayValue\": \"Enhanced User Id\"\n      },\n      {\n        \"value\": \"d\",\n        \"displayValue\": \"Join Id\"\n      }\n    ],\n    \"simpleValueType\": true,\n    \"alwaysInSummary\": true\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\nconst getCookieValues = require('getCookieValues');\n\nconst measurementId = data.measurementId;\nconst prefix = data.prefix;\n\nvar cookieName = '_ga_' + measurementId.slice(2);\nvar cookie = getCookieValues(cookieName);\n\nif (!cookie || !cookie.length || typeof cookie[0] !== 'string') return undefined;\nvar prefixIndex = cookie[0].indexOf(prefix);\n\nif (prefixIndex === -1) return undefined;\nvar substringAfterPrefix = cookie[0].substring(prefixIndex + 1);\nvar dollarIndex = substringAfterPrefix.indexOf('$');\n\nif (dollarIndex !== -1) {\n    return substringAfterPrefix.substring(0, dollarIndex);\n  } else {\n    // If no '$' is found, the value goes to the end of the string\n    return substringAfterPrefix;\n  }\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"get_cookies\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"cookieAccess\",\n          \"value\": {\n            \"type\": 1,\n            \"string\": \"any\"\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 15/05/2025, 13:50:24\n\n\n"
+            }
+        ]
+    }
+}
